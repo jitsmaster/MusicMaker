@@ -1,11 +1,21 @@
+<div>
+  <select [(ngModel)]="songName">
+    <option value="Mario">Mario</option>
+    <option value="Zelda">Zelda</option>
+    <option value="Contra">Contra</option>
+    <option value="Salamander">Life Force</option>
+    <option value="FF">Final Fantasy</option>
+  </select>
+</div>
+
 <button
   (click)="togglePlay()"
   (keyup.enter)="togglePlay()" >{{playButtonText}}</button>
 
 <div>
-  <div><span>pulse 1</span><canvas #pulse width="182" height="60"></canvas></div>
-  <div><span>pulse 2</span><canvas #square width="182" height="60"></canvas></div>
-  <div><span>triangle</span><canvas #triangle width="182" height="60"></canvas></div>
-  <div><span>noise</span><canvas #noise width="182" height="60"></canvas></div>
+  <div><span>pulse 1</span><canvas #pulse width="800" height="60"></canvas></div>
+  <div><span>pulse 2</span><canvas #square width="800" height="60"></canvas></div>
+  <div><span>triangle</span><canvas #triangle width="800" height="60"></canvas></div>
+  <div><span>noise</span><canvas #noise width="800" height="60"></canvas></div>
 </div>
 

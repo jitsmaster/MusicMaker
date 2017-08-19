@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Player } from "./Player";
 
-var canvasWidth = 182, canvasHeight = 60;
+var canvasWidth = 800, canvasHeight = 60;
 
 @Injectable()
 export class Visualizer {
